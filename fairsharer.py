@@ -10,6 +10,6 @@ def fair_sharer(values, num_iterations, share=0.1):
 
     return values
 
-
-values = [0, 1000, 800, 0]
-print(fair_sharer(values, 3))
+if __name__ == "__main__":
+    values = [0, 1000, 800, 0]
+    print(fair_sharer(values, 3))
